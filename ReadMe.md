@@ -38,7 +38,7 @@ In C++, the ampersand can take various usage.
     > - std::cout << "Value: " << number << std::endl;
     > - std::cout << "Address: " << ptr << std::endl;
 
-2. The ampersand symbol is also used in variable declarations to declare reference variables. A reference is an alias or alternative name for an existing variable. By using an ampersand in a variable declaration, you can create a reference variable that refers to the same memory location as the original variable.
+2. The ampersand symbol is also used in **variable declarations to declare reference variables**. A reference is an alias or alternative name for an existing variable. By using an ampersand in a variable declaration, you can create a reference variable that refers to the same memory location as the original variable.
    > - int number = 5;
    > - int& ref = number;  // 'ref' is a reference to 'number'
    > - std::cout << "Original: " << number << std::endl;
@@ -46,7 +46,7 @@ In C++, the ampersand can take various usage.
    > - ref = 8;  // Modifying the value through the reference
    > - std::cout << "Modified: " << number << std::endl;
 
-3. Ampersands are commonly used in function parameters to indicate pass-by-reference. When a parameter is passed by reference, changes made to the parameter within the function affect the original variable passed as an argument.
+3. Ampersands are commonly used in **function parameters to indicate pass-by-reference**. When a parameter is passed by reference, changes made to the parameter within the function affect the original variable passed as an argument.
    > - void increment(int& num) {
    >   - num++;
    >   - }
@@ -59,19 +59,19 @@ In C++, the ampersand can take various usage.
    >   - return 0;
    >   - }
 
-4. In C++, the ampersand symbol can be used as the bitwise AND operator. When used between two operands, it performs a bitwise AND operation on the binary representations of the operands.
+4. In C++, the ampersand symbol can be used as the **bitwise AND operator**. When used between two operands, it performs a bitwise AND operation on the binary representations of the operands.
     > - int a = 5;    // binary: 0101
     > - int b = 3;    // binary: 0011
     > - int result = a & b;  // bitwise AND operation
     > - // result = 0001 (binary) = 1 (decimal)
 
-5. In C++, the ampersand symbol can also be used as the logical AND operator. It is used to combine boolean expressions and returns true if both expressions evaluate to true.
+5. In C++, the ampersand symbol can also be used as the **logical AND operator**. It is used to combine boolean expressions and returns true if both expressions evaluate to true.
    > - bool condition1 = true;
    > - bool condition2 = false;
    > - bool result = condition1 && condition2;  // logical AND operation
    > - // result = false
    
-6. In C++, when working with templates, the ampersand symbol can be used as a template parameter to denote a reference type. It is often used to specify that a template function or class takes a reference to an object rather than a copy.
+6. In C++, when working with templates, the ampersand symbol can be used as a **template parameter to denote a reference type**. It is often used to specify that a template function or class takes a reference to an object rather than a copy.
    > - template < typename T>
    > - void swap(T& a, T& b) {
    >   - T temp = a;
