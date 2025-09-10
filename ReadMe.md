@@ -72,7 +72,7 @@ In C++, the ampersand can take various usage.
    > - // result = false
    
 6. In C++, when working with templates, the ampersand symbol can be used as a template parameter to denote a reference type. It is often used to specify that a template function or class takes a reference to an object rather than a copy.
-   > - template<typename T>
+   > - template < typename T>
    > - void swap(T& a, T& b) {
    >   - T temp = a;
    >   - a = b;
