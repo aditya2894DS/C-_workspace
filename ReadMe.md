@@ -48,16 +48,16 @@ In C++, the ampersand can take various usage.
 
 3. Ampersands are commonly used in function parameters to indicate pass-by-reference. When a parameter is passed by reference, changes made to the parameter within the function affect the original variable passed as an argument.
    > - void increment(int& num) {
-        num++;
-        }
+   >   - num++;
+   >   - }
     
    > - int main() {
-        int number = 7;
-        std::cout << "Before increment: " << number << std::endl;
-        increment(number);
-        std::cout << "After increment: " << number << std::endl;
-        return 0;
-    }
+   >   - int number = 7;
+   >   - std::cout << "Before increment: " << number << std::endl;
+   >   - increment(number);
+   >   - std::cout << "After increment: " << number << std::endl;
+   >   - return 0;
+   >   - }
 
 4. In C++, the ampersand symbol can be used as the bitwise AND operator. When used between two operands, it performs a bitwise AND operation on the binary representations of the operands.
     > - int a = 5;    // binary: 0101
