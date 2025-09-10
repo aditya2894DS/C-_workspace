@@ -25,3 +25,7 @@ Used with built-in datatype to modify the length of data that a particular datat
 
 
 ## cerr vs clog
+
+## Insertion and extraction operator
+1. '<<' is the extraction operator. eg std::cout << "This is message";
+2. '>>' is the insertion operator eg std::cin >> age;
