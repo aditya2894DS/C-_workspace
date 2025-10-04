@@ -1,11 +1,11 @@
 //
 // Created by rklad on 10-09-2025.
 //
-# include <iostream>
+#include <iostream>
 
 int maximum(int x, int y)
 {
-    if (x>y)
+    if (x > y)
         return x;
     return y;
 }
@@ -19,4 +19,3 @@ int main()
     std::cout << max << std::endl;
     return 0;
 }
-
